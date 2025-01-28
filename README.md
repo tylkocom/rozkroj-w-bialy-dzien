@@ -3,12 +3,10 @@
 Nestings are files (typically CSV files) that our factories use to help them manufacture and pack our furniture.
 
 They are pretty flexible, but typical information would be: 
+ - name/id of the element that will appear on a label printed by an integrated printer to identify element after cutting
  - dimensions of the element
- - pack in which it should be packed
- - in which order should it be packed (i.e. it's element 3/8 in this pack)
- - how to rotate the element on the given machine
- - where to position each corner of the material
- - thickness of the material
+ - material (either name of the material or code of the board in case of automated material storage systems)
+ - additional info – banding order, thickness, machine-specific options
 
 We aim for our manufacturing process to be as automated as possible, 
 so the files can be used i.e. to program the machines that cut the materials.
