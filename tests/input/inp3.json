@@ -1,0 +1,128 @@
+{
+  "id": 1,
+  "elements": [
+    {
+      "name": "horizontal1",
+      "elem_type": "h",
+      "x1": 0,
+      "x2": 100,
+      "y1": 0,
+      "y2": 0,
+      "z1": 180,
+      "z2": 180,
+      "pack_id": 1,
+      "material": 1
+    },
+    {
+      "name": "horizontal2",
+      "elem_type": "h",
+      "x1": 0,
+      "x2": 100,
+      "y1": 0,
+      "y2": 0,
+      "z1": 90,
+      "z2": 90,
+      "pack_id": 1,
+      "material": 1
+    },
+    {
+      "name": "horizontal3",
+      "elem_type": "h",
+      "x1": 0,
+      "x2": 100,
+      "y1": 80,
+      "y2": 80,
+      "z1": 180,
+      "z2": 180,
+      "pack_id": 1,
+      "material": 1
+    },
+    {
+      "name": "horizontal4",
+      "elem_type": "h",
+      "x1": 0,
+      "x2": 100,
+      "y1": 40,
+      "y2": 40,
+      "z1": 90,
+      "z2": 90,
+      "pack_id": 1,
+      "material": 1
+    },
+    {
+      "name": "vertical1",
+      "elem_type": "v",
+      "x1": 0,
+      "x2": 0,
+      "y1": 0,
+      "y2": 80,
+      "z1": 0,
+      "z2": 180,
+      "pack_id": 1,
+      "material": 1
+    },
+    {
+      "name": "vertical2",
+      "elem_type": "v",
+      "x1": 100,
+      "x2": 100,
+      "y1": 0,
+      "y2": 80,
+      "z1": 0,
+      "z2": 180,
+      "pack_id": 1,
+      "material": 1
+    },
+    {
+      "name": "support1",
+      "elem_type": "s",
+      "x1": 20,
+      "x2": 40,
+      "y1": 40,
+      "y2": 60,
+      "z1": 160,
+      "z2": 180,
+      "pack_id": 1,
+      "material": 2
+    },
+    {
+      "name": "support2",
+      "elem_type": "s",
+      "x1": 60,
+      "x2": 80,
+      "y1": 40,
+      "y2": 60,
+      "z1": 160,
+      "z2": 180,
+      "pack_id": 1,
+      "material": 2
+    },
+    {
+      "name": "support3",
+      "elem_type": "s",
+      "x1": 20,
+      "x2": 40,
+      "y1": 40,
+      "y2": 60,
+      "z1": 70,
+      "z2": 90,
+      "pack_id": 1,
+      "material": 2
+    },
+    {
+      "name": "rail1",
+      "elem_type": "r",
+      "x1": 0,
+      "x2": 100,
+      "y1": 40,
+      "y2": 80,
+      "z1": 90,
+      "z2": 92,
+      "pack_id": 1,
+      "material": 3
+    }
+  ],
+  "producer": "wondreful",
+  "shelf_type": 1,
+  "version": 1
+}

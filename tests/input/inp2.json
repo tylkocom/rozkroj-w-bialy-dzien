@@ -1,0 +1,104 @@
+{
+  "id": 1,
+  "elements": [
+    {
+      "name": "h_element_1",
+      "x1": 0,
+      "x2": 30,
+      "y1": 0,
+      "y2": 10,
+      "z1": 0,
+      "z2": 10,
+      "pack_id": 1,
+      "elem_type": "h",
+      "material": 1
+    },
+    {
+      "name": "h_element_2",
+      "x1": 30,
+      "x2": 40,
+      "y1": 0,
+      "y2": 10,
+      "z1": 10,
+      "z2":   0,
+      "pack_id": 1,
+      "elem_type": "h",
+      "material": 1
+    },
+    {
+      "name": "v_element_1",
+      "x1": 20,
+      "x2": 30,
+      "y1": 20,
+      "y2": 30,
+      "z1": 20,
+      "z2": 30,
+      "pack_id": 3,
+      "elem_type": "v",
+      "material": 3
+    },
+    {
+      "name": "v_element_2",
+      "x1": 30,
+      "x2": 40,
+      "y1": 30,
+      "y2": 40,
+      "z1": 30,
+      "z2": 40,
+      "pack_id": 4,
+      "elem_type": "v",
+      "material": 5
+    },
+    {
+      "name": "r_element_1",
+      "x1": 40,
+      "x2": 50,
+      "y1": 40,
+      "y2": 50,
+      "z1": 40,
+      "z2": 50,
+      "pack_id": 5,
+      "elem_type": "r",
+      "material": 5
+    },
+    {
+      "name": "r_element_2",
+      "x1": 50,
+      "x2": 160,
+      "y1": 50,
+      "y2": 60,
+      "z1": 50,
+      "z2": 60,
+      "pack_id": 6,
+      "elem_type": "r",
+      "material": 5
+    },
+    {
+      "name": "door1",
+      "x1": 50,
+      "x2": 60,
+      "y1": 50,
+      "y2": 60,
+      "z1": 50,
+      "z2": 60,
+      "pack_id": 6,
+      "elem_type": "d",
+      "material": 5
+    },
+    {
+      "name": "door2",
+      "x1": 50,
+      "x2": 60,
+      "y1": 50,
+      "y2": 60,
+      "z1": 50,
+      "z2": 60,
+      "pack_id": 1,
+      "elem_type": "d",
+      "material": 2
+    }
+  ],
+  "producer": "polmeblex",
+  "shelf_type": 1,
+  "version": 1
+}
