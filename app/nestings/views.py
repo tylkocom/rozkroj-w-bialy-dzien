@@ -5,7 +5,7 @@ from rest_framework.views import APIView
 
 from nestings.serializers import ShelfSerializer
 from nestings.services.polmeblex import create_element_csvs
-from nestings.services.wondreful.getters import WondrefulNestingFilesGetter
+from nestings.services.wondrewful.getters import WondrewfulNestingFilesGetter
 
 
 class NestingFilesView(APIView):
@@ -16,8 +16,8 @@ class NestingFilesView(APIView):
         serializer = ShelfSerializer(data=product)
         serializer.is_valid(raise_exception=True)
         deserialized_product = serializer.validated_data
-        if deserialized_product.producer == 'wondreful':
-            nesting_data = WondrefulNestingFilesGetter(deserialized_product)()
+        if deserialized_product.producer == 'wondrewful':
+            nesting_data = WondrewfulNestingFilesGetter(deserialized_product)()
         elif deserialized_product.producer == 'polmeblex':
             nesting_data = create_element_csvs(deserialized_product)
         elif deserialized_product.producer == 'BorderMebel':

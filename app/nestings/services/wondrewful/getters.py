@@ -3,7 +3,7 @@ import zipfile
 
 from typing import Iterator, Iterable
 
-from nestings.services.wondreful.nesting import WondrefulNewNesting, WondrefulNesting, MetalElementsNesting
+from nestings.services.wondrewful.nesting import WondrewfulNewNesting, WondrewfulNesting, MetalElementsNesting
 
 FileWithName = tuple[str, bytes]
 
@@ -13,15 +13,15 @@ SHELF_TYPES_SHORTCUTS = {
 }
 
 
-class WondrefulNestingFilesGetter:
+class WondrewfulNestingFilesGetter:
 
     def __init__(self, product) -> None:
         self.product = product
         self.nesting_files_generators = (
-            WondrefulNesting(product),
+            WondrewfulNesting(product),
         )
         if self.add_plywood_file:
-            self.nesting_files_generators += (WondrefulNewNesting(product),)
+            self.nesting_files_generators += (WondrewfulNewNesting(product),)
         self.metal_elements = ('Rd', )
         if product.shelf_type == 0:
             self.metal_elements = ('R', 'M', 'Te')

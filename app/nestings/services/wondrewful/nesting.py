@@ -67,9 +67,9 @@ class BaseNesting(abc.ABC):
         """Returns file generated from rows with row count."""
 
 
-class WondrefulNesting(BaseNesting):
+class WondrewfulNesting(BaseNesting):
     excluded_elements = ['door', 'drawer']
-    filename = 'wondreful_nesting.zip'
+    filename = 'wondrewful_nesting.zip'
 
     def get_filename_for_element(self, element: Element) -> str:
         return f'{element.name}.csv'
@@ -97,8 +97,8 @@ class WondrefulNesting(BaseNesting):
         return output.getvalue()
 
 
-class WondrefulNewNesting(WondrefulNesting):
-    filename = 'wondreful_new_nesting.zip'
+class WondrewfulNewNesting(WondrewfulNesting):
+    filename = 'wondrewful_new_nesting.zip'
 
     def get_row(
         self,
