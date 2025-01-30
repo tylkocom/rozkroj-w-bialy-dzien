@@ -14,18 +14,6 @@
       "material": 1
     },
     {
-      "name": "h_element_2",
-      "x1": 10,
-      "x2": 20,
-      "y1": 10,
-      "y2": 20,
-      "z1": 10,
-      "z2": 20,
-      "pack_id": 1,
-      "elem_type": "h",
-      "material": 1
-    },
-    {
       "name": "v_element_1",
       "x1": 20,
       "x2": 30,
@@ -33,18 +21,6 @@
       "y2": 30,
       "z1": 20,
       "z2": 30,
-      "pack_id": 2,
-      "elem_type": "v",
-      "material": 3
-    },
-    {
-      "name": "v_element_2",
-      "x1": 30,
-      "x2": 40,
-      "y1": 30,
-      "y2": 40,
-      "z1": 30,
-      "z2": 40,
       "pack_id": 2,
       "elem_type": "v",
       "material": 3
@@ -72,6 +48,18 @@
       "pack_id": 1,
       "elem_type": "d",
       "material": 2
+    },
+    {
+      "name": "v_element_2",
+      "x1": 30,
+      "x2": 40,
+      "y1": 30,
+      "y2": 40,
+      "z1": 30,
+      "z2": 40,
+      "pack_id": 2,
+      "elem_type": "v",
+      "material": 3
     },
     {
       "name": "d_element_2",
@@ -110,18 +98,6 @@
       "material": 2
     },
     {
-      "name": "d_element_5",
-      "x1": 80,
-      "x2": 130,
-      "y1": 80,
-      "y2": 130,
-      "z1": 0,
-      "z2": 10,
-      "pack_id": 3,
-      "elem_type": "d",
-      "material": 2
-    },
-    {
       "name": "d_element_6",
       "x1": 90,
       "x2": 140,
@@ -132,6 +108,18 @@
       "pack_id": 3,
       "elem_type": "d",
       "material": 2
+    },
+    {
+      "name": "h_element_2",
+      "x1": 10,
+      "x2": 20,
+      "y1": 10,
+      "y2": 20,
+      "z1": 10,
+      "z2": 20,
+      "pack_id": 1,
+      "elem_type": "h",
+      "material": 1
     },
     {
       "name": "s_element_1",
@@ -156,6 +144,18 @@
       "pack_id": 2,
       "elem_type": "s",
       "material": 1
+    },
+    {
+      "name": "d_element_5",
+      "x1": 80,
+      "x2": 130,
+      "y1": 80,
+      "y2": 130,
+      "z1": 0,
+      "z2": 10,
+      "pack_id": 3,
+      "elem_type": "d",
+      "material": 2
     }
   ],
   "producer": "BorderMebel",
